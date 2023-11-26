@@ -4,7 +4,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/nyaruka/phonenumbers"
+	"github.com/oarkflow/phone"
 
 	"github.com/bytedance/go-tagexpr/v2"
 )
@@ -88,11 +88,11 @@ func init() {
 		if defaultRegion == "" {
 			defaultRegion = "CN"
 		}
-		num, err := phonenumbers.Parse(numberToParse, defaultRegion)
+		num, err := phone.Parse(numberToParse, defaultRegion)
 		if err != nil {
 			return err
 		}
-		matched := phonenumbers.IsValidNumber(num)
+		matched := phone.IsValidNumber(num)
 		if !matched {
 			// return ErrInvalidWithoutMsg
 			return errors.New("phone format is incorrect")
