@@ -31,6 +31,7 @@ import (
 
 	"github.com/andeya/ameda"
 	"github.com/andeya/goutil"
+
 	"github.com/bytedance/go-tagexpr/v2/binding"
 	"github.com/bytedance/go-tagexpr/v2/binding/gjson/internal/caching"
 	"github.com/bytedance/go-tagexpr/v2/binding/gjson/internal/rt"
@@ -51,13 +52,13 @@ func UseJSONUnmarshaler() {
 	binding.Default().ResetJSONUnmarshaler(Unmarshal)
 }
 
-// Unmarshal Unmarshal JSON, old version compatible.
+// Unmarshal - Unmarshal JSON, old version compatible.
 func Unmarshal(data []byte, v interface{}) error {
 	val, ok := v.(reflect.Value)
 	if !ok {
 		val = reflect.ValueOf(v)
 	}
-	return assign(gjson.Parse(ameda.UnsafeBytesToString(data)), val)
+	return assign(gjson.ParseBytes(data), val)
 }
 
 // assign Unmarshal
