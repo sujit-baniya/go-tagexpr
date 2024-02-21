@@ -11,8 +11,8 @@ github.com/klauspost/compress v1.17.6 h1:60eq2E/jlfwQXtvZEeBUYADs+BwKBWURIY+Gj2e
 github.com/klauspost/compress v1.17.6/go.mod h1:/dCuZOvVtNoHsyb+cuJD3itjs3NbnF6KH9zAO4BDxPM=
 github.com/oarkflow/errors v0.0.6 h1:qTBzVblrX6bFbqYLfatsrZHMBPchOZiIE3pfVzh1+k8=
 github.com/oarkflow/errors v0.0.6/go.mod h1:UETn0Q55PJ+YUbpR4QImIoBavd6QvJtyW/oeTT7ghZM=
-github.com/oarkflow/phonenumbers v1.2.7 h1:r96sroWDGEOpqZYdjDdYIc8tMR4tkopqc+QWC8E83g0=
-github.com/oarkflow/phonenumbers v1.2.7/go.mod h1:NCtO2B2L6ZUGb0B7qvEoX8acI6BR0O7hVFluKNrenxo=
+github.com/oarkflow/phonenumbers v1.2.8 h1:omRp4KBhCL2fS0I9uAsPjAK4YJHAmT0HtQ5MQfaQM3o=
+github.com/oarkflow/phonenumbers v1.2.8/go.mod h1:gb03RFd8Inb+dpnWqDaK5GqvY0+rKw9RtJnbbEjjftk=
 github.com/oarkflow/pkg v0.1.22 h1:jlpBm4b1fuQkgDJEoozk28HkLZpx6qeTPCcU1AApRaQ=
 github.com/oarkflow/pkg v0.1.22/go.mod h1:nVXPmSHyXzizWnA+auR7yOrg+Sw3z4Qbx9GQTtzEbww=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

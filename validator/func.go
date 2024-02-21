@@ -4,7 +4,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/oarkflow/phonenumbers"
+	"github.com/nyaruka/phonenumbers"
 
 	"github.com/bytedance/go-tagexpr/v2"
 )
